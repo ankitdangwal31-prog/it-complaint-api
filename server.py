@@ -554,7 +554,8 @@ async def seed_data():
 
 @app.on_event("startup")
 async def on_startup():
-    await seed_data()
+    # await seed_data()
+    pass
 
 
 @app.on_event("shutdown")
